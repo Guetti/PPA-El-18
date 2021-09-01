@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-08-16" view-index="0" gantt-divider-location="245" resource-divider-location="371" version="3.1.3100" locale="es_ES">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="166" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="22" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="38" order="2"/>
+        <timeline>
+            <![CDATA[49]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#00ff33 #f4f4f4 #009900 #9900cc #ff6666 #3333ff #9933ff #ff0033]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="1" name="Función" width="165" order="0"/>
+        <field id="0" name="Nombre" width="202" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="2" name="Desarrollo Proyecto" color="#8cb6ce" meeting="false" project="true" start="2021-08-17" duration="83" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Defnición de Roles y Responsabilidades" color="#8cb6ce" meeting="false" start="2021-08-17" duration="4" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Distribución de roles para el equipo:
+Es el conjunto de conductas esperadas de quien ocupa una determinada posición en el grupo del que forma parte]]>
+            </notes>
+        </task>
+        <task id="23" name="Formación en el uso de Unity" color="#8cb6ce" meeting="false" start="2021-08-30" duration="3" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+        <task id="193" name="SEMANA RECESO" color="#8cb6ce" meeting="false" start="2021-09-06" duration="12" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+        <task id="46" name="Análisis y Diseño" color="#000000" meeting="false" start="2021-09-16" duration="5" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true">
+            <task id="49" name="Modelo de Dominio" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-09-16" duration="5" complete="1" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+            <task id="50" name="Diagrama de Clases" color="#8cb6ce" meeting="false" start="2021-09-16" duration="5" complete="0" thirdDate="2021-09-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="55" name="Implementación" meeting="false" start="2021-09-06" duration="41" complete="0" expand="true">
+            <task id="121" name="Bocetos iniciales Assets" color="#ff6666" meeting="false" start="2021-09-06" duration="10" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="136" name="Definicion de Juego principal" color="#3333ff" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2021-09-17" duration="2" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="123" name="Comenizo del desarrollo de los Asset a implemetar" color="#ff6666" meeting="false" start="2021-09-20" duration="15" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="131" name="Implementacion de Asset en la escena" color="#ff6666" meeting="false" start="2021-10-08" duration="10" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="138" name="Creacion de Sripts para cada objeto" color="#009900" meeting="false" start="2021-10-14" duration="10" complete="0" thirdDate="2021-07-19" thirdDate-constraint="0" expand="true"/>
+            <task id="125" name="Comienzo de produccion de audio" color="#9933ff" meeting="false" start="2021-10-21" duration="8" complete="0" thirdDate="2021-09-20" thirdDate-constraint="0" expand="true"/>
+            <task id="127" name="Implementacion de audio en la escena" color="#9900cc" meeting="false" start="2021-10-21" duration="8" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="58" name="Validación y Verificación" meeting="false" start="2021-10-29" duration="27" complete="0" expand="true">
+            <task id="140" name="Validacion en la implimentacion" color="#8cb6ce" meeting="false" start="2021-10-29" duration="7" complete="0" thirdDate="2021-07-19" thirdDate-constraint="0" expand="true"/>
+            <task id="206" name="Pruebas de desarrollo" color="#8cb6ce" meeting="false" start="2021-11-09" duration="5" complete="0" thirdDate="2021-07-19" thirdDate-constraint="0" expand="true"/>
+            <task id="208" name="Pruebas de version" color="#8cb6ce" meeting="false" start="2021-11-16" duration="10" complete="0" thirdDate="2021-07-19" thirdDate-constraint="0" expand="true"/>
+            <task id="212" name="Pruebas de usuario" color="#8cb6ce" meeting="false" start="2021-11-30" duration="5" complete="0" thirdDate="2021-07-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="60" name="Despliegue y Seguimiento" meeting="false" start="2021-08-17" duration="83" complete="0" expand="true">
+            <task id="28" name="Realizacion Presentacion Primer Avance" color="#00ff33" meeting="false" start="2021-08-17" duration="29" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="142" name="Realizacion Presentacion Avance Semanal 2" color="#8cb6ce" meeting="false" start="2021-08-25" duration="7" complete="0" thirdDate="2021-07-26" thirdDate-constraint="0" expand="true"/>
+            <task id="144" name="Realizacion Presentacion Avance Semanal 3" color="#8cb6ce" meeting="false" start="2021-09-02" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="146" name="Realizacion Presentacion Avance Semanal 4" color="#8cb6ce" meeting="false" start="2021-09-09" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="148" name="Realizacion Presentacion Avance Semanal 5" color="#8cb6ce" meeting="false" start="2021-09-16" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="150" name="Realizacion Presentacion Avance Semanal 6" color="#8cb6ce" meeting="false" start="2021-09-23" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="152" name="Realizacion Presentacion Avance Semanal 7" color="#8cb6ce" meeting="false" start="2021-09-30" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="154" name="Realizacion Presentacion Avance Semanal 8" color="#8cb6ce" meeting="false" start="2021-10-07" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="197" name="Realizacion Presentacion Segundo Avance" color="#00ff33" meeting="false" start="2021-09-10" duration="30" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="156" name="Realizacion Presentacion Avance Semanal 9" color="#8cb6ce" meeting="false" start="2021-10-14" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="158" name="Realizacion Presentacion Avance Semanal 10" color="#8cb6ce" meeting="false" start="2021-10-21" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="160" name="Realizacion Presentacion Avance Semanal 11" color="#8cb6ce" meeting="false" start="2021-10-28" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="162" name="Realizacion Presentacion Avance Semanal 12" color="#8cb6ce" meeting="false" start="2021-11-04" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="164" name="Realizacion Presentacion Avance Semanal 13" color="#8cb6ce" meeting="false" start="2021-11-11" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="166" name="Realizacion Presentacion Avance Semanal 14" color="#8cb6ce" meeting="false" start="2021-11-18" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="168" name="Realizacion Presentacion Avance Semanal 15" color="#8cb6ce" meeting="false" start="2021-11-25" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="200" name="Realizacion Presentacion Tercer Avance" color="#00ff33" meeting="false" start="2021-10-22" duration="35" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+            <task id="170" name="Realizacion Presentacion Avance Semanal 16" color="#8cb6ce" meeting="false" start="2021-12-02" duration="6" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <custom-property-definition id="tpc2" name="Rut" type="text"/>
+        <resource id="0" name="Maria Guarda" function="Default:1" contacts="maria.guarda@alumnos.ucn.cl" phone=""/>
+        <resource id="1" name="Joel Huillca" function="SoftwareDevelopment:5" contacts="joel.huillca@alumnos.ucn.cl" phone="">
+            <custom-property definition-id="tpc2" value=""/>
+        </resource>
+        <resource id="2" name="Drago Peric" function="SoftwareDevelopment:4" contacts="drago.peric@alumnos.ucn.cl" phone=""/>
+        <resource id="3" name="Gustavo Szigethi" function="SoftwareDevelopment:2" contacts="gustavo.szigethi@alumnos.ucn.cl" phone=""/>
+        <resource id="4" name="Vicente Pérez" function="SoftwareDevelopment:3" contacts="vicente.perez@alumnos.ucn.cl" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="8" resource-id="0" function="Default:1" responsible="true" load="99.0"/>
+        <allocation task-id="49" resource-id="1" function="SoftwareDevelopment:5" responsible="true" load="60.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2021-09-13" end="2021-09-18" resourceid="0"/>
+        <vacation start="2021-09-13" end="2021-09-18" resourceid="1"/>
+        <vacation start="2021-09-13" end="2021-09-18" resourceid="2"/>
+        <vacation start="2021-09-13" end="2021-09-18" resourceid="3"/>
+        <vacation start="2021-09-13" end="2021-09-18" resourceid="4"/>
+    </vacations>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
