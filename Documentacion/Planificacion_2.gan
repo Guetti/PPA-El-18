@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-07-26" view-index="1" gantt-divider-location="377" resource-divider-location="371" version="3.1.3100" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-08-16" view-index="0" gantt-divider-location="377" resource-divider-location="371" version="3.1.3100" locale="es_ES">
     <description/>
-    <view zooming-state="default:5" id="gantt-chart">
+    <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="210" order="0"/>
         <field id="tpd4" name="Fecha de inicio" width="66" order="1"/>
         <field id="tpd5" name="Fecha de fin" width="82" order="2"/>
@@ -67,7 +67,7 @@ Es el conjunto de conductas esperadas de quien ocupa una determinada posición e
             <task id="208" name="Pruebas de version" color="#8cb6ce" meeting="false" start="2021-11-16" duration="6" complete="0" thirdDate="2021-07-19" thirdDate-constraint="0" expand="true"/>
             <task id="212" name="Pruebas de usuario" color="#8cb6ce" meeting="false" start="2021-11-24" duration="5" complete="0" thirdDate="2021-07-19" thirdDate-constraint="0" expand="true"/>
             <task id="215" name="Correccion de errores" meeting="false" start="2021-11-26" duration="5" complete="0" expand="true"/>
-            <task id="298" name="task_298" meeting="false" start="2021-11-29" duration="6" complete="0" expand="true"/>
+            <task id="298" name="Segunda prueba de usuarios" color="#8cb6ce" meeting="false" start="2021-11-29" duration="6" complete="0" thirdDate="2021-11-29" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="60" name="Despliegue y Seguimiento" meeting="false" start="2021-08-17" duration="83" complete="0" expand="true">
             <task id="28" name="Realizacion Presentacion Primer Avance" color="#00ff33" meeting="false" start="2021-08-17" duration="19" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
