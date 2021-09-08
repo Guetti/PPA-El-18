@@ -1,0 +1,13 @@
+@startuml Modelo de dominio Proyecto PA
+
+Class Pez
+Class Piscina
+
+
+
+
+' Hiddes
+hide class circle
+hide empty members
+
+@enduml
