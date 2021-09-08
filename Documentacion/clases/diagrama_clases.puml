@@ -1,0 +1,37 @@
+@startuml Diagrama_de_clases
+' [TODO: Actualizar el diagrama de Clases a uno realmente representativo del concepto del sistema]
+
+' Declaraciones de Clases
+Class Pez
+Class Piscina
+Class "Caña de Pescar" as Cania
+Class Ranking
+Class Jugador
+Class Partida
+Class Floater
+
+' Definiciones de clases
+Class Floater{
+    - _rigidbody: Rigidbody
+    - _depthBeforeSumerged: float = 1f
+    - _displacementAmount: float = 3f
+    - _floaterCount: int = 1
+    - _waterDrag: float = 0.99f
+    - _waterAngularDrag: float = 0.5f
+}
+
+
+' Definición de relaciones
+
+Partida "1..*" <-up- "1" Jugador: Realiza
+Piscina "1" --> "0..*" Pez: Contiene
+Ranking "1" --> "0..6" Partida: Registra
+Jugador "1" --> "1" Cania: Utiliza
+Cania "1" --> "1" Piscina: Pesca en
+
+
+
+' Hiddes
+hide empty members
+
+@enduml
