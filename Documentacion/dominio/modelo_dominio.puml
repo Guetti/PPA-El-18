@@ -1,4 +1,4 @@
-@startuml Modelo de dominio "Pesca no tan milagrosa"
+@startuml Modelo_de_dominio
 
 ' Nombres Entidades
 Class Pez
