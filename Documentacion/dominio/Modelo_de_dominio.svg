@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="599.64px" preserveAspectRatio="none" style="width:311px;height:599px;background:#FFFFFF;" version="1.1" viewBox="0 0 311 599" width="311.22px" zoomAndPan="magnify"><defs><filter height="300%" id="f1852xpdet91i9" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.28"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.56" dy="4.56" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[5a7ce6ab121a541cb97940dcbfb6d1fc]
+class Pez--><rect codeLine="16" fill="#FEFECE" filter="url(#f1852xpdet91i9)" height="132.3647" id="Pez" style="stroke:#A80036;stroke-width:1.71;" width="118.56" x="7.98" y="451.44"/><text fill="#000000" font-family="sans-serif" font-size="13.68" lengthAdjust="spacing" textLength="22.8" x="55.86" y="471.341">Pez</text><line style="stroke:#A80036;stroke-width:1.71;" x1="9.12" x2="125.4" y1="480.0469" y2="480.0469"/><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="42.18" x="14.82" y="497.6245">Nombre</text><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="28.5" x="14.82" y="513.3974">Color</text><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="43.32" x="14.82" y="529.1704">Tamaño</text><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="103.74" x="14.82" y="544.9434">Velocidad de Nado</text><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="104.88" x="14.82" y="560.7163">Dificultad de pesca</text><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="39.9" x="14.82" y="576.4893">Puntaje</text><!--MD5=[c14365fc91e9a6424cd42816be2a235d]
+class Piscina--><rect codeLine="25" fill="#FEFECE" filter="url(#f1852xpdet91i9)" height="53.4998" id="Piscina" style="stroke:#A80036;stroke-width:1.71;" width="63.84" x="35.34" y="308.94"/><text fill="#000000" font-family="sans-serif" font-size="13.68" lengthAdjust="spacing" textLength="46.74" x="43.89" y="328.841">Piscina</text><line style="stroke:#A80036;stroke-width:1.71;" x1="36.48" x2="98.04" y1="337.5469" y2="337.5469"/><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="50.16" x="42.18" y="355.1245">Dificultad</text><!--MD5=[b6a7950108a251e2b7e0b5a11f8bb333]
+class Cania--><rect codeLine="5" fill="#FEFECE" filter="url(#f1852xpdet91i9)" height="28.6069" id="Cania" style="stroke:#A80036;stroke-width:1.71;" width="108.3" x="13.11" y="171"/><text fill="#000000" font-family="sans-serif" font-size="13.68" lengthAdjust="spacing" textLength="101.46" x="16.53" y="190.901">Caña de Pescar</text><!--MD5=[8dce5be27b88f5328a055380ca382252]
+class Ranking--><rect codeLine="6" fill="#FEFECE" filter="url(#f1852xpdet91i9)" height="28.6069" id="Ranking" style="stroke:#A80036;stroke-width:1.71;" width="59.28" x="223.44" y="20.52"/><text fill="#000000" font-family="sans-serif" font-size="13.68" lengthAdjust="spacing" textLength="52.44" x="226.86" y="40.421">Ranking</text><!--MD5=[e570de1d41a3b8125e1c820568fd7a6a]
+class Jugador--><rect codeLine="28" fill="#FEFECE" filter="url(#f1852xpdet91i9)" height="53.4998" id="Jugador" style="stroke:#A80036;stroke-width:1.71;" width="58.14" x="81.51" y="7.98"/><text fill="#000000" font-family="sans-serif" font-size="13.68" lengthAdjust="spacing" textLength="51.3" x="84.93" y="27.881">Jugador</text><line style="stroke:#A80036;stroke-width:1.71;" x1="82.65" x2="138.51" y1="36.5869" y2="36.5869"/><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="42.18" x="88.35" y="54.1645">Nombre</text><!--MD5=[a2cbc64afa4cdc0a8baf22725fe8dce0]
+class Partida--><rect codeLine="11" fill="#FEFECE" filter="url(#f1852xpdet91i9)" height="69.2728" id="Partida" style="stroke:#A80036;stroke-width:1.71;" width="115.14" x="178.41" y="150.48"/><text fill="#000000" font-family="sans-serif" font-size="13.68" lengthAdjust="spacing" textLength="44.46" x="213.75" y="170.381">Partida</text><line style="stroke:#A80036;stroke-width:1.71;" x1="179.55" x2="292.41" y1="179.0869" y2="179.0869"/><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="101.46" x="185.25" y="196.6645">Duracion o rondas</text><text fill="#000000" font-family="sans-serif" font-size="12.54" lengthAdjust="spacing" textLength="90.06" x="185.25" y="212.4374">Puntaje obtenido</text><!--MD5=[fd16e0469058ca124d6d896611dcc611]
+link Jugador to Partida--><path codeLine="36" d="M132.4224,61.7196 C152.0532,84.93 181.1574,119.3238 203.5242,145.749 " fill="none" id="Jugador-to-Partida" style="stroke:#A80036;stroke-width:1.14;"/><polygon fill="#A80036" points="207.3318,150.252,204.1837,139.4747,203.6492,145.9013,197.2226,145.3669,207.3318,150.252" style="stroke:#A80036;stroke-width:1.14;"/><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="49.02" x="178.98" y="112.2844">Realiza</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="7.98" x="128.7939" y="85.9546">1</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="22.8" x="176.2719" y="138.366">1..*</text><!--MD5=[56dfef818ad8f1b23be2546e44f9a6e4]
+link Piscina to Pez--><path codeLine="37" d="M67.26,362.5998 C67.26,384.2256 67.26,416.2254 67.26,445.4322 " fill="none" id="Piscina-to-Pez" style="stroke:#A80036;stroke-width:1.14;"/><polygon fill="#A80036" points="67.26,451.2348,71.82,440.9748,67.26,445.5348,62.7,440.9748,67.26,451.2348" style="stroke:#A80036;stroke-width:1.14;"/><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="58.14" x="68.4" y="413.2444">Contiene</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="7.98" x="58.3074" y="386.8154">1</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="22.8" x="43.0706" y="439.2012">0..*</text><!--MD5=[129551bd1e5f635c8040aefcb755d29a]
+link Ranking to Partida--><path codeLine="38" d="M251.5638,49.0656 C249.1128,70.2696 244.1994,112.8486 240.54,144.552 " fill="none" id="Ranking-to-Partida" style="stroke:#A80036;stroke-width:1.14;"/><polygon fill="#A80036" points="239.8788,150.3432,245.5806,140.671,240.5297,144.6805,236.5202,139.6296,239.8788,150.3432" style="stroke:#A80036;stroke-width:1.14;"/><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="54.72" x="247.38" y="112.2844">Registra</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="7.98" x="241.4157" y="73.7278">1</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="25.08" x="212.9085" y="137.9298">0..6</text><!--MD5=[888a857bd535174e2225ea9cfff2113c]
+link Jugador to Cania--><path codeLine="39" d="M84.4398,61.6056 C76.1976,71.4324 68.1264,83.2884 63.84,95.76 C55.9854,118.5828 59.0634,146.6952 62.6202,164.9922 " fill="none" id="Jugador-to-Cania" style="stroke:#A80036;stroke-width:1.14;"/><polygon fill="#A80036" points="63.8286,170.8062,66.1771,159.8269,62.6543,165.2285,57.2527,161.7057,63.8286,170.8062" style="stroke:#A80036;stroke-width:1.14;"/><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="41.04" x="64.98" y="112.2844">Utiliza</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="7.98" x="69.1156" y="85.8128">1</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="7.98" x="52.9264" y="158.7303">1</text><!--MD5=[80de87d4b58f7b79df14246e6aa10408]
+link Cania to Piscina--><path codeLine="40" d="M67.26,199.5456 C67.26,222.6192 67.26,270.9894 67.26,303.1374 " fill="none" id="Cania-to-Piscina" style="stroke:#A80036;stroke-width:1.14;"/><polygon fill="#A80036" points="67.26,308.94,71.82,298.68,67.26,303.24,62.7,298.68,67.26,308.94" style="stroke:#A80036;stroke-width:1.14;"/><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="62.7" x="68.4" y="270.7444">Pesca en</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="7.98" x="57.7089" y="224.2078">1</text><text fill="#000000" font-family="sans-serif" font-size="14.82" lengthAdjust="spacing" textLength="7.98" x="58.2077" y="296.4982">1</text><!--MD5=[ea86b7f5b64c868bbfa178a5df7ac6c8]
+@startuml Modelo_de_dominio
+
+' Nombres Entidades
+Class Pez
+Class Piscina
+Class "Caña de Pescar" as Cania
+Class Ranking
+Class Jugador
+Class Partida
+
+' Definición de entidades
+Class Partida{
+    Duracion o rondas
+    Puntaje obtenido
+}
+
+Class Pez{
+    Nombre
+    Color
+    Tamaño
+    Velocidad de Nado
+    Dificultad de pesca
+    Puntaje
+}
+
+Class Piscina{
+    Dificultad
+}
+Class Jugador{
+    Nombre
+}
+
+
+
+' Relaciones de entidades
+
+Partida "1..*" <-up- "1" Jugador: Realiza
+Piscina "1" - -> "0..*" Pez: Contiene
+Ranking "1" - -> "0..6" Partida: Registra
+Jugador "1" - -> "1" Cania: Utiliza
+Cania "1" - -> "1" Piscina: Pesca en
+
+
+
+' Hiddes
+hide class circle
+hide empty members
+
+@enduml
+
+@startuml Modelo_de_dominio
+
+Class Pez
+Class Piscina
+Class "Caña de Pescar" as Cania
+Class Ranking
+Class Jugador
+Class Partida
+
+Class Partida{
+    Duracion o rondas
+    Puntaje obtenido
+}
+
+Class Pez{
+    Nombre
+    Color
+    Tamaño
+    Velocidad de Nado
+    Dificultad de pesca
+    Puntaje
+}
+
+Class Piscina{
+    Dificultad
+}
+Class Jugador{
+    Nombre
+}
+
+
+
+
+Partida "1..*" <-up- "1" Jugador: Realiza
+Piscina "1" - -> "0..*" Pez: Contiene
+Ranking "1" - -> "0..6" Partida: Registra
+Jugador "1" - -> "1" Cania: Utiliza
+Cania "1" - -> "1" Piscina: Pesca en
+
+
+
+hide class circle
+hide empty members
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 08:40:07 CLT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: CL
+--></g></svg>
