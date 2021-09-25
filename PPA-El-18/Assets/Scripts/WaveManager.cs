@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WaveManager : MonoBehaviour
+//
 {
     public static WaveManager Instance;
     [SerializeField] private float _amplitude = 1f;
@@ -32,4 +33,6 @@ public class WaveManager : MonoBehaviour
     {
         return _amplitude * Mathf.Sin(x / _lenght + _offset);
     }
+
+    
 }
