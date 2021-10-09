@@ -12,6 +12,6 @@ Juego en RA sobre juegos típicos chilenos
 
 - María Guarda Madrid
 - [Drago Peric Cerda](https://github.com/Drago286)
-- Joel Huillca Quispe
+- [Joel Huillca Quispe](https://github.com/Joel-Huillca)
 - [Gustavo Szigethi Araya](https://github.com/Guetti)
 - [Vicente Pérez Espinoza](https://github.com/vichaoss)
