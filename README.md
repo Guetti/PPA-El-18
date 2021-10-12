@@ -1,4 +1,4 @@
-<p align="center"><img src="Documentacion/EABMODEC +.JPG"></p>
+<p align="center"><img src="Documentacion/EABMODEC +.png"></p>
 
 # PPA-El-18: Pesca No Tan Milagrosa
 Juego en RA sobre juegos típicos chilenos 
