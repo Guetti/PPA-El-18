@@ -6,10 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9300859f4878235438c67eb5c04ba1c8
+  - enabled: 1
     path: Assets/Scenes/AR Piscina.unity
     guid: de08d929689e71648bb9fb152f5ad465
-  m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fc41b98a5549d584fa2c18288cd206c1, type: 2}
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ca6cab25aac3267408159e2a95535c9b, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 50004ed574e92ce408617dfb6cfc835c, type: 2}
+  m_configObjects: {}
