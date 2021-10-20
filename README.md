@@ -10,7 +10,7 @@ Juego en RA sobre juegos típicos chilenos
 
 ## Miembros
 
-- María Guarda Madrid
+- [María Guarda Madrid](https://github.com/maria-hbp)
 - [Drago Peric Cerda](https://github.com/Drago286)
 - [Joel Huillca Quispe](https://github.com/Joel-Huillca)
 - [Gustavo Szigethi Araya](https://github.com/Guetti)
