@@ -12,13 +12,17 @@ public class DeteccionPlano : MonoBehaviour
     public ARRaycastManager aRRaycastManager;
     public GameObject indicator;
     
+    public GameObject objectPrefab; //++
+
     private void Update() 
     {
-        PlaneDetection();    
+        PlaneDetection(); 
+        SpawnnPrefab();   
     }
 
     //_____________________:::::________________________
 
+    //Detección de Planos
     public void PlaneDetection()
     {
         List<ARRaycastHit> hits = new List<ARRaycastHit>();
@@ -38,5 +42,21 @@ public class DeteccionPlano : MonoBehaviour
             indicator.SetActive(false);
         }
     }
-   
+    //_____________________:::::________________________
+
+
+    //Cuando hacemos un click en la panatalla instanciamos un objeto _-_
+   public void SpawnnPrefab()  //++
+   {
+       if(Input.touchCount > 0)
+       {
+           //Ocupamos una sola presion en el touch 
+           Touch touch = Input.GetTouch(0);
+           if(touch.phase == TouchPhase.Began)
+           {
+               Instantiate(objectPrefab, this.transform.position, this.transform.rotation);
+           }
+
+       }
+   }
 }
