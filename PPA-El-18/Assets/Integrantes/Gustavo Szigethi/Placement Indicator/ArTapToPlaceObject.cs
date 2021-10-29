@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
@@ -17,6 +18,8 @@ public class ArTapToPlaceObject : MonoBehaviour
     private Pose _placementPose;
     private bool _placementPoseIsValid = false;
     private bool _isPlace;
+    public TextMeshProUGUI debugText;
+    public Camera cam;
 
     private void Start()
     {
@@ -37,6 +40,9 @@ public class ArTapToPlaceObject : MonoBehaviour
             _isPlace = true;
             placementIndicator.SetActive(false);
         }
+
+        debugText.text = cam.transform.rotation.ToString();
+        Debug.Log(cam.transform.rotation.ToString());
     }
 
     private void PlaceObject()

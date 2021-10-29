@@ -8,7 +8,7 @@ public class HookRopeController : MonoBehaviour
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private Transform pivot;
 
-    private void FixedUpdate()
+    private void LateUpdate()
     {
         lineRenderer.SetPosition(0, transform.position);
         lineRenderer.SetPosition(1, pivot.position);
