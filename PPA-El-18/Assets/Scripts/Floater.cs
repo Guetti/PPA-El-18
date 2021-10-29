@@ -18,7 +18,7 @@ public class Floater : MonoBehaviour
 
     private void FixedUpdate()
     {
-        var waveHeight = WaveManager.Instance.GetWaveHeight(transform.position.x);
+        var waveHeight = WaveManager.Instance.GetWaveHeight(transform.position.x) + WaveManager.Instance.transform.position.y;
         _rigidbody.AddForceAtPosition(Physics.gravity / _floaterCount, transform.position, ForceMode.Acceleration);
         if (transform.position.y < waveHeight)
         {
