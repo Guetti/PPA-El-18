@@ -18,8 +18,6 @@ public class ArTapToPlaceObject : MonoBehaviour
     private Pose _placementPose;
     private bool _placementPoseIsValid = false;
     private bool _isPlace;
-    public TextMeshProUGUI debugText;
-    public Camera cam;
 
     private void Start()
     {
@@ -41,8 +39,8 @@ public class ArTapToPlaceObject : MonoBehaviour
             placementIndicator.SetActive(false);
         }
 
-        debugText.text = cam.transform.rotation.ToString();
-        Debug.Log(cam.transform.rotation.ToString());
+        //debugText.text = cam.transform.rotation.ToString();
+        //Debug.Log(cam.transform.rotation.ToString());
     }
 
     private void PlaceObject()
