@@ -65,5 +65,6 @@ public class HookController : MonoBehaviour
     {
         isCatching = false;
         Destroy(fishGrabbed);
+        CounterController.Instance.AddPoint();
     }
 }
