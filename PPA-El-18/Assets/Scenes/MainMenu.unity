@@ -3570,6 +3570,7 @@ MonoBehaviour:
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
+
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
@@ -3635,6 +3636,7 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2080641264
+
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
